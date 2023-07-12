@@ -23,6 +23,7 @@
         height: 60px;
         overflow: hidden;
         position: relative;
+        opacity: 0.5;
       }
 
       .list {
@@ -109,7 +110,7 @@
       let currentLeftValue = 0
 
       // Kick off for the animation function.
-      window.setInterval(animationLoop, 5)
+      window.setInterval(animationLoop, 10)
 
       function animationLoop() {
         const firstListItem = listElem.querySelector('.list__item:first-child')
